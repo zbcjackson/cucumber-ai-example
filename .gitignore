@@ -4,3 +4,5 @@
 /cache
 /test-result
 /midscene_run
+
+.env
