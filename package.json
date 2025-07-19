@@ -11,6 +11,6 @@
   "license": "MIT",
   "packageManager": "pnpm@10.13.1",
   "dependencies": {
-    "cucumber-ai": "https://github.com/zbcjackson/cucumber-ai/releases/download/v0.9.8/cucumber-ai-0.9.8.tgz"
+    "cucumber-ai": "^0.9.10"
   }
 }

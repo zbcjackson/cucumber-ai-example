@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       cucumber-ai:
-        specifier: https://github.com/zbcjackson/cucumber-ai/releases/download/v0.9.8/cucumber-ai-0.9.8.tgz
-        version: https://github.com/zbcjackson/cucumber-ai/releases/download/v0.9.8/cucumber-ai-0.9.8.tgz(@cucumber/messages@27.2.0)(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.76)
+        specifier: ^0.9.10
+        version: 0.9.10(@cucumber/messages@27.2.0)(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.76)
 
 packages:
 
@@ -23,8 +23,8 @@ packages:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
 
-  '@ant-design/cssinjs@1.23.0':
-    resolution: {integrity: sha512-7GAg9bD/iC9ikWatU9ym+P9ugJhi/WbsTWzcKN6T4gU0aehsprtke1UAaaSxxkjjmkJb3llet/rbUSLPgwlY4w==}
+  '@ant-design/cssinjs@1.24.0':
+    resolution: {integrity: sha512-K4cYrJBsgvL+IoozUXYjbT6LHHNt+19a9zkvpBPxLjFHas1UpPM2A5MlhROb0BT8N8WoavM5VsP9MeSeNK/3mg==}
     peerDependencies:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
@@ -542,14 +542,14 @@ packages:
   '@types/node@16.9.1':
     resolution: {integrity: sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==}
 
-  '@types/node@18.19.119':
-    resolution: {integrity: sha512-d0F6m9itIPaKnrvEMlzE48UjwZaAnFW7Jwibacw9MNdqadjKNpUm9tfJYDwmShJmgqcoqYUX3EMKO1+RWiuuNg==}
+  '@types/node@18.19.120':
+    resolution: {integrity: sha512-WtCGHFXnVI8WHLxDAt5TbnCM4eSE+nI0QN2NJtwzcgMhht2eNz6V9evJrk+lwC8bCY8OWV5Ym8Jz7ZEyGnKnMA==}
 
-  '@types/node@22.16.4':
-    resolution: {integrity: sha512-PYRhNtZdm2wH/NT2k/oAJ6/f2VD2N2Dag0lGlx2vWgMSJXGNmlce5MiTQzoWAiIJtso30mjnfQCOKVH+kAQC/g==}
+  '@types/node@22.16.5':
+    resolution: {integrity: sha512-bJFoMATwIGaxxx8VJPeM8TonI8t579oRvgAuT8zFugJsJZgzqv0Fu8Mhp68iecjzG7cnN3mO2dJQ5uUM2EFrgQ==}
 
-  '@types/node@24.0.14':
-    resolution: {integrity: sha512-4zXMWD91vBLGRtHK3YbIoFMia+1nqEz72coM42C5ETjnNCa/heoj7NT1G67iAfOqMmcfhuCZ4uNpyz8EjlAejw==}
+  '@types/node@24.0.15':
+    resolution: {integrity: sha512-oaeTSbCef7U/z7rDeJA138xpG3NuKc64/rZ2qmUFkFJmnMsAPaluIifqyWd8hSSMxyP9oie3dLAqYPblag9KgA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -826,9 +826,8 @@ packages:
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  cucumber-ai@https://github.com/zbcjackson/cucumber-ai/releases/download/v0.9.8/cucumber-ai-0.9.8.tgz:
-    resolution: {tarball: https://github.com/zbcjackson/cucumber-ai/releases/download/v0.9.8/cucumber-ai-0.9.8.tgz}
-    version: 0.9.8
+  cucumber-ai@0.9.10:
+    resolution: {integrity: sha512-ykp0EYqucZ/1RuHxyhvydlof6PU09/ogZB/76HjGk84wtHZQzo3E7UvgF13PfrxGi5ctxzrni2hyh9Akpkw1oQ==}
     hasBin: true
 
   dayjs@1.11.13:
@@ -2449,13 +2448,13 @@ snapshots:
 
   '@ant-design/cssinjs-utils@1.1.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ant-design/cssinjs': 1.23.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ant-design/cssinjs': 1.24.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@babel/runtime': 7.27.6
       rc-util: 5.44.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@ant-design/cssinjs@1.23.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ant-design/cssinjs@1.24.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.27.6
       '@emotion/hash': 0.8.0
@@ -2494,7 +2493,7 @@ snapshots:
 
   '@anthropic-ai/sdk@0.33.1':
     dependencies:
-      '@types/node': 18.19.119
+      '@types/node': 18.19.120
       '@types/node-fetch': 2.6.12
       abort-controller: 3.0.0
       agentkeepalive: 4.6.0
@@ -2746,7 +2745,7 @@ snapshots:
       '@inquirer/figures': 1.0.12
       '@inquirer/type': 2.0.0
       '@types/mute-stream': 0.0.4
-      '@types/node': 22.16.4
+      '@types/node': 22.16.5
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       cli-width: 4.1.0
@@ -3263,28 +3262,28 @@ snapshots:
 
   '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 24.0.14
+      '@types/node': 24.0.15
 
   '@types/mute-stream@0.0.4':
     dependencies:
-      '@types/node': 24.0.14
+      '@types/node': 24.0.15
 
   '@types/node-fetch@2.6.12':
     dependencies:
-      '@types/node': 18.19.119
+      '@types/node': 18.19.120
       form-data: 4.0.4
 
   '@types/node@16.9.1': {}
 
-  '@types/node@18.19.119':
+  '@types/node@18.19.120':
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.16.4':
+  '@types/node@22.16.5':
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@24.0.14':
+  '@types/node@24.0.15':
     dependencies:
       undici-types: 7.8.0
 
@@ -3361,7 +3360,7 @@ snapshots:
   antd@5.26.5(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@ant-design/colors': 7.2.1
-      '@ant-design/cssinjs': 1.23.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ant-design/cssinjs': 1.24.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ant-design/cssinjs-utils': 1.1.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ant-design/fast-color': 2.0.6
       '@ant-design/icons': 5.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3607,7 +3606,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  cucumber-ai@https://github.com/zbcjackson/cucumber-ai/releases/download/v0.9.8/cucumber-ai-0.9.8.tgz(@cucumber/messages@27.2.0)(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.76):
+  cucumber-ai@0.9.10(@cucumber/messages@27.2.0)(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.76):
     dependencies:
       '@cucumber/cucumber': 11.3.0
       '@cucumber/pretty-formatter': 1.0.1(@cucumber/cucumber@11.3.0)(@cucumber/messages@27.2.0)
@@ -3720,7 +3719,7 @@ snapshots:
   engine.io@6.6.4:
     dependencies:
       '@types/cors': 2.8.19
-      '@types/node': 24.0.14
+      '@types/node': 24.0.15
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
@@ -4398,7 +4397,7 @@ snapshots:
 
   openai@4.81.0(zod@3.25.76):
     dependencies:
-      '@types/node': 18.19.119
+      '@types/node': 18.19.120
       '@types/node-fetch': 2.6.12
       abort-controller: 3.0.0
       agentkeepalive: 4.6.0
