@@ -9,5 +9,3 @@ default: &default
     theme:
       "feature keyword": ["magenta", "bold"]
       "scenario keyword": ["red"]
-  worldParameters:
-    webUrl: 'http://localhost:9000'
