@@ -1,6 +1,7 @@
 default: &default
   require:
     - './node_modules/cucumber-ai/dist/ai.steps.js'
+    - './node_modules/cucumber-ai/dist/setup.js'
   forceExit: true
   format:
     - '@cucumber/pretty-formatter'
