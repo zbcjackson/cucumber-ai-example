@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       cucumber-ai:
-        specifier: ^0.9.12
-        version: 0.9.12(@cucumber/messages@27.2.0)(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.76)
+        specifier: ^0.9.17
+        version: 0.9.17(@cucumber/messages@27.2.0)(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.76)
 
 packages:
 
@@ -826,8 +826,8 @@ packages:
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  cucumber-ai@0.9.12:
-    resolution: {integrity: sha512-8Xvi6j1n1O/wt75l4PGIpJDVQ8NBk3C2yQsThJYqCZxlJ3IuwhPJIr/Ix2a01Xhu8OqtIDJjMFsyVT3+/pJ5jg==}
+  cucumber-ai@0.9.17:
+    resolution: {integrity: sha512-/SOfZFodJo52Ua0nE5+fm7nOGnrt8kaKQ5iWyTq4Et9HgZ1fyYROl8Cr2PXUhKC6u5gF8pQ69QHQStmXYa/ZsA==}
     hasBin: true
 
   dayjs@1.11.13:
@@ -3606,7 +3606,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  cucumber-ai@0.9.12(@cucumber/messages@27.2.0)(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.76):
+  cucumber-ai@0.9.17(@cucumber/messages@27.2.0)(luxon@3.6.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(zod@3.25.76):
     dependencies:
       '@cucumber/cucumber': 11.3.0
       '@cucumber/pretty-formatter': 1.0.1(@cucumber/cucumber@11.3.0)(@cucumber/messages@27.2.0)
